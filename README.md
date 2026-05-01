@@ -39,3 +39,17 @@ Create a `.env` file in the root directory:
 
 API_KEY=your_testnet_api_key
 API_SECRET=your_testnet_secret
+## Sample Output
+
+📤 Order Request:
+{'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+
+✅ Order Response:
+Order ID: 123456
+Status: FILLED
+Executed Qty: 0.001
+Avg Price: 60000
+## Sample Logs
+
+2026-05-01 INFO Request → BTCUSDT BUY MARKET qty=0.001 price=None  
+2026-05-01 INFO Response → {orderId: 12345, status: FILLED}
