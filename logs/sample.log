@@ -1,0 +1,5 @@
+2026-05-01 INFO Request → BTCUSDT BUY MARKET qty=0.001 price=None
+2026-05-01 INFO Response → {'orderId': 12345, 'status': 'FILLED'}
+
+2026-05-01 INFO Request → BTCUSDT SELL LIMIT qty=0.001 price=60000
+2026-05-01 INFO Response → {'orderId': 67890, 'status': 'NEW'}
