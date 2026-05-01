@@ -33,3 +33,9 @@ logs/trading_bot.log
 ## Assumptions
 - Uses Binance Futures Testnet
 - Quantity precision depends on symbol
+## Environment Setup
+
+Create a `.env` file in the root directory:
+
+API_KEY=your_testnet_api_key
+API_SECRET=your_testnet_secret
